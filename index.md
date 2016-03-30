@@ -6,12 +6,18 @@ This is the companion webpage for the 19th International Conference on Digital A
 
 ### Audio samples
 
+#### Dry chord:
 
-Dry chord:
+To provide an audio comparison of the results of the optimisations, a dry guitar chord is used as an input signal.
+
 <audio controls>
   <source src="{{ site.baseurl }}/audio/chord.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio>
+
+#### Nominal models:
+
+The nominal samples demonstrate what the behaviour of the model using the nominal parameters from Table 1.
 
 Nominal Germanium:
 <audio controls>
@@ -24,6 +30,10 @@ Nominal Silicon:
   <source src="{{ site.baseurl }}/audio/chord-silicon-nominal.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio>
+
+#### Optimised models:
+
+The optimised samples demonstrate the behaviour of the model after optimising the parameters. The parameter sets used are the same sets used in the validation plots in Figure 7.
 
 Optimised Germanium:
 <audio controls>
