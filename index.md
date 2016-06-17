@@ -2,7 +2,7 @@
 layout: page
 title: Physical model parameter optimisation for calibrated emulation of the Dallas Rangemaster Treble Booster guitar pedal
 ---
-This is the companion webpage for the 19th International Conference on Digital Audio Effects paper **"Physical model parameter optimisation for calibrated emulation of the Dallas Rangemaster Treble Booster guitar pedal"** by Ben Holmes and Maarten van Walstijn. The paper is currently awaiting review.
+This is the companion webpage for the 19th International Conference on Digital Audio Effects paper **"Physical model parameter optimisation for calibrated emulation of the Dallas Rangemaster Treble Booster guitar pedal"** by Ben Holmes and Maarten van Walstijn.
 
 ### Audio samples
 
@@ -19,13 +19,13 @@ Your browser does not support the audio element.
 
 The nominal samples demonstrate what the behaviour of the model using the nominal parameters from Table 1.
 
-Nominal Germanium:
+Nominal germanium model:
 <audio controls>
   <source src="{{ site.baseurl }}/audio/chord-germanium-nominal.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio>
 
-Nominal Silicon:
+Nominal silicon model:
 <audio controls>
   <source src="{{ site.baseurl }}/audio/chord-silicon-nominal.wav" type="audio/wav">
 Your browser does not support the audio element.
@@ -35,14 +35,30 @@ Your browser does not support the audio element.
 
 The optimised samples demonstrate the behaviour of the model after optimising the parameters. The parameter sets used are the same sets used in the validation plots in Figure 7.
 
-Optimised Germanium:
+Optimised germanium model:
 <audio controls>
-  <source src="{{ site.baseurl }}/audio/chord-germanium.wav" type="audio/wav">
+  <source src="{{ site.baseurl }}/audio/chord-germanium-optimised.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio>
 
-Optimised Silicon:
+Optimised silicon model:
 <audio controls>
-  <source src="{{ site.baseurl }}/audio/chord-silicon.wav" type="audio/wav">
+  <source src="{{ site.baseurl }}/audio/chord-silicon-optimised.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+
+#### Circuit samples:
+
+Finally, samples of the chord processed through the circuit are provided for comparison.
+
+Germanium circuit:
+<audio controls>
+  <source src="{{ site.baseurl }}/audio/chord-germanium-circuit.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+
+Silicon circuit:
+<audio controls>
+  <source src="{{ site.baseurl }}/audio/chord-silicon-circuit.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio>
